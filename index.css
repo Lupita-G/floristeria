@@ -6,9 +6,6 @@ header > * {
     font-size: 16px;
     background-color: #f7917b;
 }
-header .navbar .navbar-toggler {
-    border-color: #bdb76b;
-}
 .main {
     background-image: url(https://images.unsplash.com/photo-1492267222091-a360457ca0be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1835&q=80);
     background-size: cover;
@@ -34,16 +31,29 @@ header .navbar .navbar-toggler {
     color: #fdf9f8;
     font-family: 'Canela', serif;
 }
-
+.favoritos h2 {
+    font-family: 'Canela', serif;
+    font-size: 50px;
+    color: #c8553d;
+    margin-top: 40px;
+    text-align: center;
+}
+.favoritos p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #56251b;
+    text-align: center;
+}
 .flower-section {
     display: grid;
     grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 80px;
     row-gap: 40px;
     margin-left: 12.5%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .flower-section .flower-card {
     background-color: #fdf9f8;
@@ -65,91 +75,55 @@ header .navbar .navbar-toggler {
 }
 .flower-content p {
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     padding-left: 8px;
 }
-.maridajes-container {
-    margin: 0 10% 10% 10%;
+.banner {
+   background: url(https://cdn.pixabay.com/photo/2017/03/23/09/00/tulips-2167753_960_720.jpg);
+   width: 100%;
+   height: 500px;
+   float: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   text-align: center;
+   margin-bottom: 5px;
 }
+.banner h3 {
+    background: rgba(0,0,0,.5);
+    height: 500px;
+    font-family:'Canela', serif;
+    color: #fdf9f8;
+    padding-top: 210px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.container-pay {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 10%;
 
-.maridajes-container .cartel .letrero h2 {
-    font-family: 'Courgette', cursive;
-    color: #bdb76b;
-    font-size: 60px;
-    text-align: center;
-    padding: 180px 0 0 70px;
 }
-.maridajes-container .images-maridajes .carousel .carousel-item img {
-    width: 100%;
-}
-.card {
-    background-color: #bdb76b;
-    border-radius: 8px;
-    margin-right: 10px;
-    padding: 10px;
-}
-.card video {
-    width: 100%;
-}
-.card-body h4 {
-    font-family: 'Courgette', cursive;
-    font-weight: 400;
-    text-align: left;
-}
-.card-body p {
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-}
-.list-group .list-group-item {
-    font-family: 'Poppins', sans-serif;
+.container-pay .card {
+    margin: 100px;
+    width: 250px;
     border: none;
-    border: none;
-    background-color: #dcdcdc;
+    background-color:#f9e7e3;
 }
-.card button {
-    margin-left: 60px;
-    padding: 10px;
-    border-radius: 8px;
-    color: #ffffff;
-    background-color: black;
-    border: none;
-}
-.card button:hover {
-    background-color: #f5f5dc;
-    color: black;
-    border: solid 1px black;
-}
-.promo {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10%;
-}
-.media {
-    background-color: black;
-    border-radius: 8px;
-    color: #ffffff;
-    padding: 0 0 0 100px;
-}
-.media img {
-    width: 200px;
-}
-.media .media-body h5 {
-    font-family: 'Courgette', cursive;
-    color: #bdb76b;
-    font-size: 25px;
-}
-.media .media-body .media-p {
-    padding-bottom: 100px;
+.container-pay .card .content {
     font-family: 'Poppins', sans-serif;
-    color: #dcdcdc;
+    font-weight: 900;
     font-size: 18px;
+    color: #56251b;
+    text-align: left;
 }
 .footer {
     background-color: #f7917b;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-family: 'Poppins', sans-serif;
+    color: #fdf9f8;
 }
 .footer .contacto {
     text-align: center;
