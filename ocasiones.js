@@ -9,6 +9,10 @@
             e.preventDefault();
         }
     };
+    hvdjfjm
+
+
+    
 
     let validarEmail = function(e){
         if(formulario.email.value == 0) {
@@ -32,3 +36,4 @@
 
     formulario.addEventListener("submit", validar);
 }())
+
